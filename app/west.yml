@@ -4,9 +4,11 @@ manifest:
       url-base: https://github.com/zephyrproject-rtos
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: iemooon
+      url-base: https://github.com/Iemooon
   projects:
     - name: zephyr
-      remote: zmkfirmware
+      remote: iemooon
       revision: v4.1.0+zmk-fixes
       clone-depth: 1
       import:
